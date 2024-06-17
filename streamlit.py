@@ -3,7 +3,7 @@ import streamlit as st
 
 chain = chatbot_chain()
 
-st.title("LearnML Assistant: Your Personal Guide to Machine Learning")
+st.title("Your personal guide to novels")
 
 bot_logo_path = "logo.png"
 
