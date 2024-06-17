@@ -9,7 +9,7 @@ bot_logo_path = "logo.png"
 
 if 'messages' not in st.session_state:
     st.session_state['messages'] = [{"role": "bot",
-                                     "content": "Hello, I am a bot designed to teach Machine Learning. How can I help you?"}]
+                                     "content": "Hello, I am a bot designed to help about the novels."}]
 
 for message in st.session_state.messages:
     if message["role"] == 'bot':
